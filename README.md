@@ -1,14 +1,14 @@
 # LogEvo - The evolution of logger
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge) 
-![GitHub language count](https://img.shields.io/github/languages/count/gustavors1608/timered_embedded?style=for-the-badge) 
+![GitHub language count](https://img.shields.io/github/languages/count/gustavors1608/lOGeVO?style=for-the-badge) 
 ![Plataforma](https://img.shields.io/badge/Plataforma-ESP32-green?style=for-the-badge)
 
 
 Biblioteca de logs para esp32, sendo a principal motivação para a criação da mesma, a problemática de realizar registro e monitoramento a distancia através de logs e registros de dados do sistema.
 
-sendo assim se originou a LogEvo, uma lib que tem por objetivo principal realizar registro de mensagens através da serial e de arquivo spiffs, onde este pode ser requisitado e enviado para um servidor de monitoramento por exemplo.
+Sendo assim se originou a LogEvo, uma lib que tem por objetivo principal realizar registro de mensagens através da serial e de arquivo spiffs, onde este pode ser requisitado e enviado para um servidor de monitoramento por exemplo.
 
-sendo assim é possível acompanhar as features e suas características a seguir:
+Assim é possível acompanhar as features e suas características a seguir:
 
 ## Features
 Algumas características do projeto:
@@ -27,11 +27,11 @@ Uma delas, é a criação de **Macros**, onde estas são substituídas pelas sua
 
 ```#define warring(x)     logger.set(__LINE__,WARRI,x);```
 
-nesse caso ao chamar a macro de warring a seguir na linha 232:
+Nesse caso ao chamar a macro de warring a seguir na linha 232:
 
 ``` warring("esta é uma mensagem de warring")```
 
-será convertido para o seguinte apos compilado:
+Será convertido para o seguinte apos compilado:
 
 ```logger.set(232,2,"esta é uma mensagem de warring");```
 
@@ -71,16 +71,16 @@ void loop() {
 }
 
 ```
-após realizar o upload do código acima para seu esp 32, é só abrir a serial e ver as mensagens sendo registradas, veja também o arquivo: **```exemplos/basic.cpp```**
+Após realizar o upload do código acima para seu esp 32, é só abrir a serial e ver as mensagens sendo registradas, veja também o arquivo: **```exemplos/basic.cpp```**
 
-partiu evoluir a utilização dos seus registros de log? 
+Partiu evoluir a utilização dos seus registros de log? 
 
 
 
 
 ## License
 
-este projeto é OpenSource e livre para a modificação, comercialização etc, que tal nos ajudar a melhorar esta lib?
+Este projeto é OpenSource e livre para a modificação, comercialização etc, que tal nos ajudar a melhorar esta lib?
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
@@ -92,5 +92,3 @@ Em caso de duvidas ou sugestões... ou queira entrar em contato:
 
 - [Instagram: @gustavo_stroschon](https://www.instagram.com/gustavo_stroschon)
 
-
-Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
