@@ -87,8 +87,5 @@ Este projeto é OpenSource e livre para a modificação, comercialização etc, 
 
 ## Author
 Em caso de duvidas ou sugestões... ou queira entrar em contato:
-
-- [Github: @gustavors1608](https://www.github.com/gustavors1608)
-
 - [Instagram: @gustavo_stroschon](https://www.instagram.com/gustavo_stroschon)
 
